@@ -15,12 +15,12 @@ public class EmployeeService {
 	@Autowired
 	private EmployeeRepo repo;
 	
-	@Async
+	@Async // Denotes Async method
 	public CompletableFuture<Employee> getEmployee(int id) {
 		return CompletableFuture.completedFuture(repo.findById(id).get());
 	}	
 	
-	@Async
+	@Async // Denotes Aync method
 	public void saveEmployee(Employee e) {
 		repo.save(e);
 	}
