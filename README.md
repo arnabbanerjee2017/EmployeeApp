@@ -8,3 +8,5 @@ This app demonstrates the below technologies -
 	3. Spring AOP and AspectJ.
 	4. Async communication with @Async and CompletableFuture.
 	5. Basic of Spring Security and OAuth 2.0.
+
+For SQL Schema and demo data, please refer to the myhome_employee.sql
